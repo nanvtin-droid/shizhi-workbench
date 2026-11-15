@@ -1,0 +1,17 @@
+{
+  "name": "douyin-focus-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "opencc-js": "1.4.2",
+    "puppeteer-core": "25.16.0"
+  }
+}
